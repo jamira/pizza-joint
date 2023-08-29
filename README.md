@@ -21,7 +21,6 @@ This app does few things offline
 1. Clone or download the repository to your local machine.
 2. Install the required dependencies by running`npm install` in the terminal.
 3. Start the app by running `npm run dev`
-4. Start the server by running `npm run server`
 
 ## Screenshot
 ![](./screenshot.png)
