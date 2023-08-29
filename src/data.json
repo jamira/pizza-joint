@@ -1,0 +1,246 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Margherita",
+      "ingredients": [
+        {
+          "name": "Tomato Sauce",
+          "price": 0
+        },
+        {
+          "name": "Mozzarella Cheese",
+          "price": 0
+        },
+        {
+          "name": "Fresh Basil",
+          "price": 0
+        },
+        {
+          "name": "Olive Oil",
+          "price": 0
+        }
+      ],
+      "price": 10.99
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni",
+      "ingredients": [
+        {
+          "name": "Tomato Sauce",
+          "price": 0
+        },
+        {
+          "name": "Mozzarella Cheese",
+          "price": 0
+        },
+        {
+          "name": "Pepperoni",
+          "price": 0
+        }
+      ],
+      "price": 10.99
+    },
+    {
+      "id": 3,
+      "name": "Vegetarian",
+      "ingredients": [
+        {
+          "name": "Tomato Sauce",
+          "price": 0
+        },
+        {
+          "name": "Mozzarella Cheese",
+          "price": 0
+        },
+        {
+          "name": "Mushrooms",
+          "price": 0
+        },
+        {
+          "name": "Bell Peppers",
+          "price": 0
+        },
+        {
+          "name": "Red Onions",
+          "price": 0
+        },
+        {
+          "name": "Black Olives",
+          "price": 0
+        }
+      ],
+      "price": 10.99
+    },
+    {
+      "id": 4,
+      "name": "Hawaiian",
+      "ingredients": [
+        {
+          "name": "Tomato Sauce",
+          "price": 0
+        },
+        {
+          "name": "Mozzarella Cheese",
+          "price": 0
+        },
+        {
+          "name": "Ham",
+          "price": 0
+        },
+        {
+          "name": "Pineapple",
+          "price": 0
+        }
+      ],
+      "price": 10.99
+    },
+    {
+      "id": 5,
+      "name": "Supreme",
+      "ingredients": [
+        {
+          "name": "Tomato Sauce",
+          "price": 0
+        },
+        {
+          "name": "Mozzarella Cheese",
+          "price": 0
+        },
+        {
+          "name": "Pepperoni",
+          "price": 0
+        },
+        {
+          "name": "Italian Sausage",
+          "price": 0
+        },
+        {
+          "name": "Green Peppers",
+          "price": 0
+        },
+        {
+          "name": "Red Onions",
+          "price": 0
+        },
+        {
+          "name": "Black Olives",
+          "price": 0
+        }
+      ],
+      "price": 10.99
+    },
+    {
+      "id": 6,
+      "name": "BBQ Chicken",
+      "ingredients": [
+        {
+          "name": "BBQ Sauce",
+          "price": 0
+        },
+        {
+          "name": "Mozzarella Cheese",
+          "price": 0
+        },
+        {
+          "name": "Grilled Chicken",
+          "price": 0
+        },
+        {
+          "name": "Red Onions",
+          "price": 0
+        }
+      ],
+      "price": 10.99
+    }
+  ],
+  "toppings": [
+    {
+      "id": 1,
+      "name": "Pepperoni"
+    },
+    {
+      "id": 2,
+      "name": "Mushrooms"
+    },
+    {
+      "id": 3,
+      "name": "Bell Peppers"
+    },
+    {
+      "id": 4,
+      "name": "Red Onions"
+    },
+    {
+      "id": 5,
+      "name": "Black Olives"
+    },
+    {
+      "id": 6,
+      "name": "Ham"
+    },
+    {
+      "id": 7,
+      "name": "Pineapple"
+    },
+    {
+      "id": 8,
+      "name": "Italian Sausage"
+    },
+    {
+      "id": 9,
+      "name": "Grilled Chicken"
+    },
+    {
+      "id": 10,
+      "name": "Mozzarella Cheese"
+    },
+    {
+      "id": 11,
+      "name": "Tomato Sauce"
+    },
+    {
+      "id": 12,
+      "name": "Fresh Basil"
+    },
+    {
+      "id": 13,
+      "name": "Olive Oil"
+    },
+    {
+      "id": 14,
+      "name": "BBQ Sauce"
+    }
+  ],
+  "sizes": [
+    {
+      "id": 1,
+      "name": "Small",
+      "diameter": 10,
+      "slices": 6,
+      "price": 10.99
+    },
+    {
+      "id": 2,
+      "name": "Medium",
+      "diameter": 12,
+      "slices": 8,
+      "price": 12.99
+    },
+    {
+      "id": 3,
+      "name": "Large",
+      "diameter": 14,
+      "slices": 10,
+      "price": 15.99
+    },
+    {
+      "id": 4,
+      "name": "X-Large",
+      "diameter": 16,
+      "slices": 12,
+      "price": 18.99
+    }
+  ]
+}

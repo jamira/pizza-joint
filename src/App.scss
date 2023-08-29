@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#portal-root {
+  position: relative;
+}
+
+.app {
+  display: block;
+  padding: 2rem 1rem;
+}
+
+#pizza-container,
+#cart-container  {
+  flex-basis: 100%;
+}
+
+#cart-container {
+  background: #fff;
+}
+
+
+@media screen and (min-width: 968px) {
+  .app {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+  }
+
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  #pizza-container {
+    flex-basis: 900px;
+    margin: 0 1rem;
+  }
+  
+  #cart-container {
+    flex-basis: 310px;
+    max-height: 370px;
+    position: sticky;
+    top: 0;
+    border-radius: 8px;
+    margin: 0 1rem;
+  }
+
+}
+
+.w-full {
+  width: 100%;
+}

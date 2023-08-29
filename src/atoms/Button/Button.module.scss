@@ -1,0 +1,58 @@
+.button {
+    border: 1px solid transparent;
+    transition: border-color 0.25s;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    color: #fff;
+    transition: box-shadow .3s linear;
+  
+    &--primary {
+      background-color: #009620;
+      border-color: #009620;
+    }
+  
+    &--danger {
+      background-color: #dc3545;
+      border-color: #dc3545;
+    }
+    
+    &--secondary {
+      background-color: #6c757d;
+      border-color: #6c757d;
+    }
+  
+    &--outline-primary {
+      background-color: transparent;
+      border-color: #009620;
+      color: #009620;
+    }
+  
+    &--outline-secondary {
+      background-color: transparent;
+      border-color: #6c757d;
+      color: #6c757d;
+    }
+  
+  
+    &:hover,&:disabled {
+      opacity: .8;
+    }
+  
+    &:disabled {
+      cursor: auto;
+    }
+
+    &.hasIcon {
+      background-color: transparent;
+      border-color: transparent;
+      padding: 0;
+      
+      .button__name {
+        display: none;
+      }
+    }
+  }
+  

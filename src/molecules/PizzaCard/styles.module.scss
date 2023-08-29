@@ -1,0 +1,54 @@
+.pizza__card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.10);
+    cursor: pointer;
+  
+    &__image {
+      overflow: hidden;
+      position: relative;
+      &-content {
+        object-fit: cover;
+        width: 100%;
+        height: 16rem;
+        transition: transform .5s,-webkit-transform .5s;
+      }
+    }
+  
+    &__description {
+      padding: 0 1rem 1rem 1rem;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    } 
+  
+    &__title,
+    &__price {
+      font-size: 1rem; /* 16px */
+      line-height: 1.5rem; /* 24px */
+      letter-spacing: 0.025em;
+    }
+  
+    &__title {
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+    }
+  
+    &__price {
+      font-weight: 700;
+      color: #009620;
+    }
+  
+    &__button {
+      width: 100%;
+    }
+  
+    &:hover img{
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+  
