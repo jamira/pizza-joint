@@ -22,7 +22,7 @@ const Radio: React.FC<RadioProps> = ({
   };
 
   const radioClass = `${styles.radio} ${styles.radio__label} ${className}`;
-
+  
   return (
     <label className={radioClass}>
       <input
