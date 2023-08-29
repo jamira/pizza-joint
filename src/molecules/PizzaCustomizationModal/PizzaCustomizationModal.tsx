@@ -14,7 +14,7 @@ import {
   ToppingSelection,
 } from "../../types";
 import styles from "./styles.module.scss";
-
+import { formatCurrency } from "../../helpers/currency";
 // Extract Checkbox components
 const ToppingCheckbox: FC<{
   topping: Topping;
@@ -23,7 +23,7 @@ const ToppingCheckbox: FC<{
 }> = ({ topping, selected, onChange }) => (
   <Checkbox
     key={topping.id}
-    label={topping.name}
+    label={`${topping.name}`}
     checked={selected}
     onChange={onChange}
   />
@@ -136,7 +136,7 @@ const PizzaCustomizationModal: FC<PizzaCustomizationModalProps> = ({
             {sizes.map((size, index) => (
               <Radio
                 key={index}
-                label={size.name}
+                label={`${size.name} (${formatCurrency(size.price, "HKD")})`}
                 checked={selectedSize === size.name}
                 onChange={() => handleRadioChange(size.name)}
                 value={size.name.toString()}
